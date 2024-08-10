@@ -7,6 +7,9 @@ class Test extends React.Component {
             { name: 'plk', age: 20, editName: '' },
         ],
     };
+    componentDidMount() {
+        console.log('this', this);
+    }
     changeName = (name, newName) => {
         this.setState({
             person: this.state.person.map(item => {
