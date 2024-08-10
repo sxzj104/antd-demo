@@ -12,6 +12,7 @@ const HookTest = () => {
 
     return (
         <div style={{ marginTop: '50px' }}>
+            <h1>useEffect 测试</h1>
             <span>定时器：{count}</span>
         </div>
     );
