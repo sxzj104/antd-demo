@@ -1,6 +1,6 @@
 import './App.css';
 import PngOrPdf from './views/PngOrPdf';
-import HookTest from './views/hookTest';
+import HookTest from './views/HookTest';
 const App = () => {
     return (
         <div>
